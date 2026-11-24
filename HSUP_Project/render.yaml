@@ -2,7 +2,7 @@
   - type: web
     name: hsup-chat
     runtime: python
-    rootDir: site
+    rootDir: HSUP_Project/site;
     plan: free
     buildCommand: "echo 'No third-party dependencies required'"
     startCommand: python server.py
