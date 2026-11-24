@@ -1,0 +1,18 @@
+﻿services:
+  - type: web
+    name: hsup-chat
+    runtime: python
+    rootDir: site
+    plan: free
+    buildCommand: "echo 'No third-party dependencies required'"
+    startCommand: python server.py
+    healthCheckPath: /api/health
+    envVars:
+      - key: AI_API_KEY
+        sync: false
+      - key: AI_MODEL
+        sync: false
+      - key: AI_BASE_URL
+        value: https://api.openai.com/v1
+      - key: AI_DAILY_REQUEST_LIMIT
+        value: "100"

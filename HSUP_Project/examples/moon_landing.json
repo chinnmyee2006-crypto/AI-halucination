@@ -1,0 +1,8 @@
+﻿{
+  "question": "When was the first crewed Moon landing, and what spacecraft carried the astronauts?",
+  "initial_answer": "Apollo 11 landed on the Moon in 1969. Neil Armstrong and Buzz Aldrin walked on the Moon.",
+  "evidence": [
+    {"id": "S1", "source": "NASA Apollo 11 mission overview", "text": "Apollo 11 was the first crewed mission to land on the Moon. It landed on July 20, 1969. Astronauts Neil Armstrong and Buzz Aldrin walked on the lunar surface."},
+    {"id": "S2", "source": "NASA mission overview", "text": "The Apollo 11 crew included Neil Armstrong, Buzz Aldrin, and Michael Collins."}
+  ]
+}
